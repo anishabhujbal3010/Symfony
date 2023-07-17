@@ -1,0 +1,3 @@
+random_string_route:
+    path: '/random/string'
+    controller: 'App\Controller\UsingRoutsYaml::string'
