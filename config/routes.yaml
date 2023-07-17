@@ -1,5 +1,7 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+blog_list:
+    path: /blog
+    controller: App\Controller\UsingAttributes::list
+
+random_string_route:
+    path: '/random/string'
+    controller: 'App\Controller\UsingRoutsYaml::string'
