@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class UsingAttributes extends AbstractController
 {
-    #[Route('/blog', name: 'blog_list')]
+   
     public function list(): Response
     {
         $content = 'Hello, this is the blog list page.';
