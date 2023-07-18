@@ -8,5 +8,7 @@ random_string_route:
     controller: 'App\Controller\UsingRoutsYaml::string'
 
 blog_show:
-    path:       /blog/{slug}
+    path:       /movie/{slug}
     controller: App\Controller\UsingAttributes::show
+
+
