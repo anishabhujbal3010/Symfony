@@ -2,7 +2,11 @@ blog_list:
     path: /blog
     controller: App\Controller\UsingAttributes::list
 
+
 random_string_route:
     path: '/random/string'
     controller: 'App\Controller\UsingRoutsYaml::string'
 
+blog_show:
+    path:       /blog/{slug}
+    controller: App\Controller\UsingAttributes::show
